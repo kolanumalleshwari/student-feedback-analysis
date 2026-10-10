@@ -1,5 +1,7 @@
 # Student Feedback Analysis System
 
+🔗 **Live Deployed Application (Vercel)**: [https://student-feedback-analysis-k3h9booqe-kolanumalleshwaris-projects.vercel.app](https://student-feedback-analysis-k3h9booqe-kolanumalleshwaris-projects.vercel.app)
+
 A full-stack web application designed for colleges and universities to collect, analyze, and report student feedback on courses, faculty members, teaching quality, laboratories, and institutional facilities.
 
 ---
@@ -31,6 +33,15 @@ A full-stack web application designed for colleges and universities to collect, 
 * **MySQL Database** (`mysql2` connection pool with async/await promises)
 * **dotenv** (Environment variable management)
 * **cors** (Cross-Origin Resource Sharing middleware)
+
+---
+
+## 🌐 Live Links & Repositories
+
+* **Live Frontend Web App (Vercel)**: [https://student-feedback-analysis-k3h9booqe-kolanumalleshwaris-projects.vercel.app](https://student-feedback-analysis-k3h9booqe-kolanumalleshwaris-projects.vercel.app)
+* **Full Stack GitHub Repo**: [https://github.com/kolanumalleshwari/student-feedback-analysis.git](https://github.com/kolanumalleshwari/student-feedback-analysis.git)
+* **Frontend GitHub Repo**: [https://github.com/kolanumalleshwari/student-feedback-analysis-frontend-.git](https://github.com/kolanumalleshwari/student-feedback-analysis-frontend-.git)
+* **Backend GitHub Repo**: [https://github.com/kolanumalleshwari/student-feedback-analysis-backend-.git](https://github.com/kolanumalleshwari/student-feedback-analysis-backend-.git)
 
 ---
 
@@ -113,7 +124,6 @@ DB_USER=root
 DB_PASSWORD=your_mysql_password
 DB_NAME=student_feedback_db
 ```
-*Replace `your_mysql_password` with your actual local MySQL root password.*
 
 ### Frontend Setup (`frontend/.env`)
 Create `frontend/.env` (copy from `frontend/.env.example`):
@@ -169,19 +179,3 @@ Open the project root folder `student-feedback-analysis` in VS Code.
 | `GET` | `/api/analytics/departments` | Get feedback counts and average ratings grouped by department |
 | `GET` | `/api/analytics/subjects` | Get course ratings breakdown grouped by subject |
 | `GET` | `/api/analytics/sentiment` | Get overall sentiment percentage breakdown & qualitative highlights |
-
----
-
-## 🔧 Troubleshooting & Common Errors
-
-1. **`ER_ACCESS_DENIED_ERROR` / Database Connection Error**
-   * **Fix**: Ensure your MySQL server is running and check `backend/.env`. Verify `DB_USER` and `DB_PASSWORD` match your local MySQL credentials.
-
-2. **`ER_NO_SUCH_TABLE` (Table 'student_feedback_db.feedback' doesn't exist)**
-   * **Fix**: Run the `database.sql` script inside MySQL Workbench or MySQL CLI to create the table and seed data.
-
-3. **Frontend showing "Could not connect to backend server"**
-   * **Fix**: Ensure backend server is running in terminal 1 on port `5000` (`http://localhost:5000/api/health`).
-
-4. **Port 5000 or 5173 in use error**
-   * **Fix**: Stop any process using port 5000/5173, or update `PORT` in `backend/.env` and `VITE_API_BASE_URL` in `frontend/.env`.
