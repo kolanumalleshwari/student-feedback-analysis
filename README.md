@@ -1,6 +1,6 @@
 # Student Feedback Analysis System
 
-🔗 **Live Deployed Application (Vercel)**: [https://student-feedback-analysis-k3h9booqe-kolanumalleshwaris-projects.vercel.app](https://student-feedback-analysis-k3h9booqe-kolanumalleshwaris-projects.vercel.app)
+🔗 **Live Deployed Application (Vercel)**: [https://student-feedback-analysis-8syi18a7v-kolanumalleshwaris-projects.vercel.app](https://student-feedback-analysis-8syi18a7v-kolanumalleshwaris-projects.vercel.app)
 
 A full-stack web application designed for colleges and universities to collect, analyze, and report student feedback on courses, faculty members, teaching quality, laboratories, and institutional facilities.
 
@@ -38,7 +38,7 @@ A full-stack web application designed for colleges and universities to collect, 
 
 ## 🌐 Live Links & Repositories
 
-* **Live Frontend Web App (Vercel)**: [https://student-feedback-analysis-k3h9booqe-kolanumalleshwaris-projects.vercel.app](https://student-feedback-analysis-k3h9booqe-kolanumalleshwaris-projects.vercel.app)
+* **Live Frontend Web App (Vercel)**: [https://student-feedback-analysis-8syi18a7v-kolanumalleshwaris-projects.vercel.app](https://student-feedback-analysis-8syi18a7v-kolanumalleshwaris-projects.vercel.app)
 * **Full Stack GitHub Repo**: [https://github.com/kolanumalleshwari/student-feedback-analysis.git](https://github.com/kolanumalleshwari/student-feedback-analysis.git)
 * **Frontend GitHub Repo**: [https://github.com/kolanumalleshwari/student-feedback-analysis-frontend-.git](https://github.com/kolanumalleshwari/student-feedback-analysis-frontend-.git)
 * **Backend GitHub Repo**: [https://github.com/kolanumalleshwari/student-feedback-analysis-backend-.git](https://github.com/kolanumalleshwari/student-feedback-analysis-backend-.git)
